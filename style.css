@@ -1,0 +1,99 @@
+html,body {
+    height: 100%;
+}
+.CTY Club{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+.CTY Club nav ul a {
+float: left;
+display: block;
+color: #ff00ff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+list-style-type: none;
+font-size: 17px;
+text-transform: capitalize
+}
+.CTV Club a:hover{
+    background-color: #0f0c03;
+    color: black;
+}
+div.hero-image {
+    background-image: url(./images/child\ photographer.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+div.hero-text{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+div.hero-text h1 {
+    font-size: 1.5cm
+}
+div.hero-text a button{
+    color: brown;
+    border-color: brown;
+    background-color: antiquewhite;
+    padding: 10px
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.column img{
+    width: 80%;
+    height:auto;
+    transition: transform .2s
+}
+.column img:hover{
+    transform: scale(1.2)
+}
+.row {
+    text-align: right;
+    padding-bottom: 30px
+}
+.row:after{
+    content: "";
+    display: table;
+
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+}
+footer p {
+    color: #f7b906
+}
+table#t1 {
+    background-color: white;
+    border: 2px solid black
+}
+table#t1 tr:nth-child(even) {
+    background-color: blue; color: azure;
+}
+table#1 tr:nth-child(odd) {
+    background-color: black; color: aqua;
+}
+/* media querry*/
+@media screen and (min-width:480px){
+body{
+    background-color: lightgreen;
+}
+}
+@media screen and (max-width:600px){
+    .column{
+        width:100%
+    }
+}
